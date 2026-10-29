@@ -9,5 +9,5 @@ jobs:
         with:
           node-version: 22
       - run: npm ci
-      - run: npm 123
+      - run: npm test
       - run: docker build -t my-app .
