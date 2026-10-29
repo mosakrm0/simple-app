@@ -5,7 +5,7 @@ const serverConfig = {
         status: "connected"
     }
 };
-
+// edit
 const server = http.createServer((req, res) => {
     // Modern optional chaining
     const dbStatus = serverConfig?.database?.status;
